@@ -9,17 +9,19 @@ body {
   font-family: arial;
   background-image: url('bg.png');
   background-size: cover;
-  display: flex;
   
 }
-
+.form{
+  display: flex;
+  width: 100%;
+}
 .reg-credencial{
   width: 60%;
   height: 100%;
 
 }
 .credencial-img{
-  margin-top: 70px;
+  margin-top: 50px;
   background: #4e4d4d;
   width: 30%;
 }
@@ -35,6 +37,24 @@ body {
 .foto-back img, .foto-front img{
   width: 100%;
 }
+.cont-logos{
+  background: rgba(255, 255, 255, 0.075);
+  width: auto;
+  height: 110px;
+}
+.logos{
+  display: flex;
+  justify-content: space-around;
+
+}
+.img1{
+  width: 170px;
+  margin-top: 10px;
+}
+.img2{
+  width: 120px;
+  margin-top: 10px;
+}
 
 
 /*FORMULARIO PARA REGISTRO DE CREDENCIALES*/
@@ -42,7 +62,7 @@ body {
   width: 400px;
   background: #4e4d4d;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   box-shadow: 7px 13px 37px #000;
   padding: 20px 30px;
   border-top: 4px solid #017bab;
