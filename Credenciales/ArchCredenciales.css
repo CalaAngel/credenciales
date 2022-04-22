@@ -8,27 +8,23 @@ body {
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
   .titulo{
       text-align: center;
-      margin-top: 1rem;
+      margin-top: -4rem;
   }
   .cards{
       display: flex;
       justify-content: center;
-      padding-right: 3rem;
-      padding-left: 3rem;
+      padding-right: 4rem;
+      padding-left: 4rem;
   }
   .cardAlu, .cardTrabaj{
     overflow: hidden;
-    width: 20%;
-    height: 18rem;
-    margin: 10px;
+    width: 17%;
+    height: 25rem;
+    margin: 1px;
     margin-left: 40px;
     position:relative ;
   }
-  .cardAlu:hover, .cardTrabaj:hover{
-    background:rgba(0, 195, 255, 0.171);
-    border-radius: 15px;
-    transition: 0.5s;
-  }
+  
   .img{
       text-align: center;
       margin-top: 1rem;
@@ -47,18 +43,43 @@ body {
     transition: 0.5s;
   }
   img{
-      width: 80%;
+      width: 100%;
   }
-  .button{
-    margin-left: 33rem;
-    text-align: center;
-    width: 20%;
+  #text{
+      text-align: center;
+      font-weight: bold;
+      color: white;
+  }
+  .file-div{
+    position: relative;
+    padding: auto;
+    padding-top:1pt;
+    padding-bottom: 1pt;
+    width: 100%;
+    background-color: #e67777;
+    border-radius: 10px;
+    
+    transition: .5s;
+  }
+  .file-div:hover{
+      background-color: #e22b2b;
+  }
+  #generarCredencial{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      width: 100%;
+      opacity: 0;
+      cursor: pointer;
   }
   .boton {
     width: 100%;
     height: 40px;
     background: #017bab;
     border: none;
+    border-radius: 10px;
     color: white;
     margin-bottom: 16px;
     margin-top: 16px;
@@ -68,5 +89,9 @@ body {
   }
   .boton:hover{
     background: #19b9f8;
+  }
+  .back{
+    width: 70px;
+    margin-top: 1rem;
   }
   
