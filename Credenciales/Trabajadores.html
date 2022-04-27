@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>REGISTRO DE CREDENCIALES EMPLEADOS</title>
-    <link rel="stylesheet" href="Trabajadores.css">
+    <link rel="stylesheet" href="./css/Trabajadores.css">
   </head>
   <body>
     <div class="cont-logos">
       <nav class="logos">
         <div id="back">
-          <a href="./index.html"><img class="back" src="./btn_back.png" alt=""></a>
+          <a href="./index.html"><img class="back" src="./img/btn_back.png" alt=""></a>
         </div>
         <div>
-          <img class="img1" src="./logo-tecnm.png" alt="">
+          <img class="img1" src="./img/logo-tecnm.png" alt="">
         </div>
         <div >
-          <img class="img2" src="./itcuautla.png" alt="">
+          <img class="img2" src="./img/itcuautla.png" alt="">
         </div>
       </nav>
     </div>
@@ -26,10 +26,39 @@
         <form action="">
           <h5>Credenciales Trabajadores</h5>
           <input class="campo" type="text" name="nombre" value="" placeholder="Nombre Completo">
-          <input class="campo" type="number" name="matricula" value="" placeholder="Número de Control">
+          <select>
+            <option selected value="0">Dirección</option>
+            <option class="color" disabled value="">Subdirección Académica</option>
+            <option value="1">Subdirección Académica</option>
+            <option value="2">Departamento de Ciencias Básicasa</option>
+            <option value="3">Departamento de Ciencias Económico-Administrativas</option>
+            <option value="4">Departamento de Metal Mecánica</option>
+            <option value="5">Departamento de Eléctrica y Electrónica</option>
+            <option value="6">Departamento de Sistemas y Computación</option>
+            <option value="7">Departamento de Desarrollo Académico</option>
+            <option value="8">División de Estudios Profesionales</option>
+            <option value="9">Posgrado</option>
+            <option class="color" disabled value="">Subdirección de Planeación y Vinculación</option>
+            <option value="10">Subdirección de Planeación y Vinculación</option>
+            <option value="11">Departamento de Centro de Información</option>
+            <option value="12">Departamento de Actividades Extraescolares</option>
+            <option value="13">Departamento de Gestión Tecnología y Vinculación</option>
+            <option value="14">Departamento de Planeación, Programación y Presupuestación</option>
+            <option value="15">Departamento de Comunicación y Difusión</option>
+            <option class="color" disabled value="">Subdirección de Servicios Administrativos</option>
+            <option value="16">Subdirección de Servicios Administrativos</option>
+            <option value="17">Departamento de Recursos Financieros</option>
+            <option value="18">Departamento de Recursos Humanos</option>
+            <option value="19">Departamento de Recursos Materiales y Servicios</option>
+            <option value="20">Departamento de Mantenimiento y Equipo</option>
+            <option value="21">Departamento de Centro de Cómputo</option>
+            
+          </select>
+          <input class="campo" type="text" name="cargo" value="" placeholder="Cargo">
+          <input class="campo" type="number" name="matricula" value="" placeholder="Número de Tarjeta">
           <input class="campo" type="number" name="año" value="" placeholder="Año de Ingreso">
           <label for="upload" id="upload-btn">
-            <img src="./338864.png" alt="">
+            <img src="./img/338864.png" alt="">
             <span id="text">Ingresa la fotografia</span>
           </label>
           <input type="file" name="upload" id="upload">
@@ -48,6 +77,6 @@
       <button class="boton">COPIAR IMAGENES</button>
     </div>
     </div>
-    <script src="./button.js"></script>
+    <script src="./js/button.js"></script>
   </body>
 </html>

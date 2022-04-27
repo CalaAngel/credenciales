@@ -7,7 +7,7 @@
 
 body {
   font-family: arial;
-  background-image: url('bg.png');
+  background-image: url('../img/bg.png');
   background-size: cover;
   
 }
@@ -21,10 +21,11 @@ body {
 
 }
 .credencial-img{
-  margin-top: 50px;
+  margin-top: 1.8rem;
   background: #4e4d4d;
   box-shadow: 6px 10px 20px #000;
   width: 30%;
+  height: 25rem
 }
 .foto-front, .foto-back{
   overflow: hidden;
@@ -114,6 +115,30 @@ input[type="file"]{
   left: -9999px;
   
 }
+
+select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  width: 100%;
+  height: 2.5em;
+  margin-bottom: 1em;
+  padding: 0 4em 0 .5em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+    no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(0, 0, 0, 0.411) 3em, #252323 3em);
+  color: white;
+  font-weight: bold;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+option {
+  color: inherit;
+  font-weight: bold;
+  background-color: #4e4d4d;
+}
+
 label{
   background: rgb(253, 115, 105);
   color: rgb(255, 255, 255);
